@@ -7,7 +7,7 @@ const fetch = require("node-fetch");
 module.exports = async (req, res) => {
   const body = req.body;
 
-  const TELEGRAM_BOT_TOKEN = '7527027286:AAHarlrcC1BsLg9sSXvi6208JccSyVjxDUY';
+  const TELEGRAM_BOT_TOKEN = '8076150584:AAHl-DJ8Usremp4gm-tsBBFgiNy_0mmyv5M';
   const TELEGRAM_API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
 
   const chat_id = body.message.chat.id;
@@ -43,7 +43,7 @@ Got friends, family, or fellow dog lovers? Invite them to join the fun!
     form.append("reply_to_message_id", message_id);
     form.append("reply_markup", JSON.stringify({
       inline_keyboard: [[
-        { text: "Play GamaDog Now", web_app: { url: "https://app.companybro.com" } },
+        { text: "Play GamaDog Now", web_app: { url: "https://9000-firebase-studio-1750325090866.cluster-axf5tvtfjjfekvhwxwkkkzsk2y.cloudworkstations.dev" } },
         { text: "Join Our Community", url: "https://t.me/companybrodigital" }
       ]]
     }));
