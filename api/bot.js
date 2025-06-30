@@ -7,7 +7,7 @@ const fetch = require("node-fetch");
 module.exports = async (req, res) => {
   const body = req.body;
 
-  const TELEGRAM_BOT_TOKEN = '8076150584:AAHl-DJ8Usremp4gm-tsBBFgiNy_0mmyv5M';
+  const TELEGRAM_BOT_TOKEN = '7573761211:AAEC89yy4AqxzQbZIC0sHxiBNsqoCz6_K0A';
   const TELEGRAM_API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
 
   const chat_id = body.message.chat.id;
